@@ -1,0 +1,38 @@
+.card-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #c9cfee;  
+  border-radius: 10px;
+  overflow-anchor: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  flex-wrap: wrap;
+  text-align: justify;
+
+}
+
+.card-container:hover{
+  transform: scale(1.01);
+  box-shadow: 4px 4px 5px #888888;
+  }
+
+
+img {
+  height: 160px;
+  width: 180px; 
+  align-self: center;
+  border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 420px){
+  img {
+    height: 170px;
+    width: auto; 
+    align-self: center;
+    margin: 10px;
+    border-radius: 10px;
+  
+  }
+}
